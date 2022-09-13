@@ -1,0 +1,31 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.featureditem{
+    position: relative;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 30%;
+    height: 250px;
+    flex: 1;
+}
+.featuredImg{
+    object-fit: cover;
+    transition: all 300ms;
+}
+
+.feturedTitles{
+    position: absolute;
+    left: 7px;
+    top: 2px;
+}
+.feturedTitles h1,p{
+    text-shadow: 1px 1px 1px #000;
+    margin: 0;
+}
